@@ -28,3 +28,38 @@ print(f"El area del rectangulo es : {area}")
 mensaje_str("Hola Abel")
 
 print(len(my_variable)) # Imprime el tamanio de una cadena
+
+
+# No es necesario definir una variable, esta puede ser usada en cualquier lugar del codigo.
+
+b= 12
+c = 3
+a = b * c
+
+
+print("El resultado es: " , a)
+
+
+# Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
+name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
+print("Me llamo:", name, surname, ". Mi edad es:",
+      age, ". Y mi alias es:", alias)
+
+# Inputs
+name = input('¿Cuál es tu nombre? ')
+age = input('¿Cuántos años tienes? ')
+print(name)
+print(age)
+
+# Cambiamos su tipo
+name = 35
+age = "Brais"
+print(name)
+print(age)
+
+# ¿Forzamos el tipo?
+address: str = "Mi dirección"
+address = True
+address = 5
+address = 1.2
+print(type(address))
