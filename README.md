@@ -9,6 +9,6 @@ Para el tutorial propio de python
 # Atajos
 Se debe llenar con atajos para un buen desarrollo en Python
 
-
+1. En Python no se debe poner puntos y comas. 
 
 
